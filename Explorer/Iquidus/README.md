@@ -30,21 +30,21 @@ $ apt-get update
 ###### 2) Para a instalação do Explorer é necessário instalar os pacotes e dependencias:
 
 ```sh
-# apt-get install build-essential libtool autotools-dev 
+# apt-get install build-essential libtool autotools-dev -y
 
-# apt-get install automake pkg-config libssl-dev libevent-dev bsdmainutils git apache2
+# apt-get install automake pkg-config libssl-dev libevent-dev bsdmainutils git apache2 -y
 
-# apt-get install nodejs-legacy npm libboost-system-dev libboost-filesystem-dev 
+# apt-get install nodejs-legacy npm libboost-system-dev libboost-filesystem-dev -y
 
-# apt-get install libboost-chrono-dev libboost-program-options-dev 
+# apt-get install libboost-chrono-dev libboost-program-options-dev -y
 
-# apt-get install libboost-test-dev libboost-thread-dev libdb4.8-dev libdb4.8++-dev 
+# apt-get install libboost-test-dev libboost-thread-dev libdb4.8-dev libdb4.8++-dev -y
 
-# apt-get install libminiupnpc-dev libzmq3-dev libprotobuf-dev protobuf-compiler
+# apt-get install libminiupnpc-dev libzmq3-dev libprotobuf-dev protobuf-compiler -y
 
-# apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools 
+# apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools -y
 
-# apt-get install software-properties-common && add-apt-repository ppa:bitcoin/bitcoin && apt-get update
+# apt-get install software-properties-common && add-apt-repository ppa:bitcoin/bitcoin && apt-get update 
 
 # npm install forever -g
 
