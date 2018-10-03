@@ -176,15 +176,34 @@ $ apt-get update
 ```
 
 
-##### Alterar da Linha 83 a 86 - vamos seguir os passos abaixo:
+##### Alterar da Linha 83 a 86 - vamos seguir os passos abaixo, esta etapa e muito importante!:
 ```sh
-# "blockindex": 1337,
+1- vamos acessar a wallet e copiar o endereco da wallet!
 
-# "blockhash": "1733320247b15ca2262be646397d1ffd6be953fa638ebb8f5dcbb4c2b91b34f1",
+# "address": "RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb"
+
+2- Efetuar uma transacao para a wallet e copiar o hash e digitar o comando abaixo.
+
+# gettransaction + ID da transacao.
+
+3- Inserir o TXhash.
 
 # "txhash": "f270cd3813254c9922a2e222a56ba745842d9112223a1394062e460b33d27b7e",
 
-# "address": "RBiXWscC63Jdn1GfDtRj8hgv4Q6Zppvpwb"
+4- Inserir o BlockHash.
+
+# "blockhash": "1733320247b15ca2262be646397d1ffd6be953fa638ebb8f5dcbb4c2b91b34f1",
+
+
+5- Inserir o numero do bloco.
+
+# "blockindex": 1337,
+
+
+
+
+
+
 
 ```
 
