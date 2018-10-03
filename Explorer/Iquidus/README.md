@@ -1,9 +1,9 @@
 
 
 
-![Alt Text](https://github.com/MagnoMonteCerqueira/Altcoins/blob/master/src/imgs/explorer.jpg)
+![Alt Text](https://github.com/MagnoMonteCerqueira/Criptomoedas/blob/master/Explorer/src/imgs/explorer.jpg)
 
-##                                      Tutorial de instalação Explorer para Altcoins com banco de dados MongoDB!
+##                                      Tutorial de instalação Explorer para Altcoins com Ubuntu 16.4 e banco de dados MongoDB!
 
 
 ## Introdução.
@@ -30,13 +30,19 @@ $ apt-get update
 ###### 2) Para a instalação do Explorer é necessário instalar os pacotes e dependencias:
 
 ```sh
-# apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils git apache2
+# apt-get install build-essential libtool autotools-dev 
 
-# apt-get install nodejs-legacy npm libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev 
+# apt-get install automake pkg-config libssl-dev libevent-dev bsdmainutils git apache2
 
-# apt-get install libboost-test-dev libboost-thread-dev libdb4.8-dev libdb4.8++-dev libminiupnpc-dev libzmq3-dev 
+# apt-get install nodejs-legacy npm libboost-system-dev libboost-filesystem-dev 
 
-# apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
+# apt-get install libboost-chrono-dev libboost-program-options-dev 
+
+# apt-get install libboost-test-dev libboost-thread-dev libdb4.8-dev libdb4.8++-dev 
+
+# apt-get install libminiupnpc-dev libzmq3-dev libprotobuf-dev protobuf-compiler
+
+# apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools 
 
 # apt-get install software-properties-common && add-apt-repository ppa:bitcoin/bitcoin && apt-get update
 
@@ -62,7 +68,9 @@ $ apt-get update
 
 # systemctl enable mongod
 
-# netstat -plntu
+##
+###### 3.1)  Criar e configurar o banco de dados:
+
 
 # mongo
 
@@ -94,7 +102,7 @@ $ apt-get update
 ```sh
 # "title": "Explorer Biticao", 
 ```
-##### Alterar linha 10 - IP (vamos manter padrao)
+##### Alterar linha 10 - IP (vamos manter padrao em caso de localhost ou colcoar IP publico em caso de VPS)
 ```sh
 # "address": "127.0.0.1:3002",
 ```
