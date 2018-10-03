@@ -68,9 +68,10 @@ $ apt-get update
 
 # systemctl enable mongod
 
+```
 ##
 ###### 3.1)  Criar e configurar o banco de dados:
-
+```sh
 
 # mongo
 
